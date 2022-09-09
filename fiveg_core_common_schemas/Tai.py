@@ -3,8 +3,8 @@
 
 from pydantic import BaseModel
 
-from schemas.PlmnId import PlmnId
-from schemas.Tac import Tac
+from fiveg_core_common_schemas.PlmnId import PlmnId
+from fiveg_core_common_schemas.Tac import Tac
 
 
 class Tai(BaseModel):

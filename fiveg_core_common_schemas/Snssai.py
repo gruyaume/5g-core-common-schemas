@@ -3,7 +3,7 @@
 
 from pydantic import BaseModel
 
-from schemas.Uinteger import Uinteger
+from fiveg_core_common_schemas.Uinteger import Uinteger
 
 
 class Snssai(BaseModel):

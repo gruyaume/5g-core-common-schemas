@@ -3,8 +3,8 @@
 
 from pydantic import BaseModel
 
-from schemas.AmfId import AmfId
-from schemas.PlmnId import PlmnId
+from fiveg_core_common_schemas.AmfId import AmfId
+from fiveg_core_common_schemas.PlmnId import PlmnId
 
 
 class Guami(BaseModel):

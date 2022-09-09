@@ -3,8 +3,8 @@
 
 from pydantic import BaseModel
 
-from schemas.Mcc import Mcc
-from schemas.Mnc import Mnc
+from fiveg_core_common_schemas.Mcc import Mcc
+from fiveg_core_common_schemas.Mnc import Mnc
 
 
 class PlmnId(BaseModel):
