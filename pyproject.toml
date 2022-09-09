@@ -4,17 +4,17 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "5g-core-common-schemas"
-version = "1.0.2"
+version = "1.0.3"
 description = "Common Schemas used in 5G core"
 readme = "README.md"
 authors = [{ name = "Guillaume Belanger", email = "guillaume.belanger27@gmail.com" }]
 license = { file = "LICENSE" }
 classifiers = [
-    "License :: OSI Approved :: MIT License",
+    "License :: Apache License",
     "Programming Language :: Python",
     "Programming Language :: Python :: 3",
 ]
-keywords = ["feed", "reader", "tutorial"]
+keywords = ["5G", "Core", "Network"]
 dependencies = [
     "feedparser >= 5.2.0",
     "html2text",
