@@ -1,12 +1,9 @@
 name: Create and publish a Pypi package
 
-#on:
-#  push:
-#    branches:
-#      - "main"
-
 on:
-  push
+  push:
+    branches:
+      - "main"
 
 jobs:
   build-and-push-package:
