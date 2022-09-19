@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "5g-core-common-schemas"
-version = "1.0.8"
+version = "1.0.9"
 description = "Common Schemas used in 5G core"
 readme = "README.md"
 authors = [{ name = "Guillaume Belanger", email = "guillaume.belanger27@gmail.com" }]
